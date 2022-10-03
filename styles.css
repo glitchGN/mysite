@@ -3,3 +3,10 @@
     width: 100%;
     justify-content: space-between;
 }
+.navbar-right>ul{
+    list-style-type: none;
+    display: flex;
+}
+.navbar-right{
+    
+}
