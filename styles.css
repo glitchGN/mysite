@@ -13,10 +13,13 @@
     background-color: black;
     display: flex;
     align-items: center;
-    height: 60px;
+    height: 100px;
     display: flex;
     width: 100%;
     justify-content: space-between;
+    box-shadow: 1px 4px 11px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 4px 11px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 4px 11px -3px rgba(0,0,0,0.75);
 }
 .navbar-right>ul{
     
@@ -31,10 +34,17 @@
 .navbar-right>ul>li{
         cursor: pointer;
         min-height: 100%;
+        user-select: none;
     }
 
 
 .navbar-right>ul>li:hover{
-        background-color: gray;
+        background-color: slateblue;
         cursor: pointer;
+}
+.navbar-left{
+    font-size: xx-large;
+    margin-left: 20px;
+    user-select: none;
+
 }
