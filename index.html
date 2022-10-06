@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="styles.css" type="text/css">
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     
-    <script src="app.js"></script>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,18 +13,18 @@
 </head>
 
 <body>
-    <header>
+    <header class="navbar-default">
         <div class="logo">
             <span><span class="symbol">&lt</span>gasminoamane<span class="red">/</span><span class="symbol">&gt</span></span>
         </div>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">CV</a></li>
+                <li><a href="#" class="btn">Home</a></li>
+                <li><a href="#" class="btn">About</a></li>
+                <li><a href="#"class="btn">Contact</a></li>
+                <li><a href="#"class="btn">CV</a></li>
             </ul>
     </header>
-    <section>
+    <section id="section1">
         <div class="container">
             <div class="left">
                 <div class="left-wrapper"><h1 class="element">Hi, I'm Gasmi Noamane</h1>
@@ -39,14 +39,20 @@
             </div>
         </div>
     </section>
+
+    <section id="section2">
+        <h1>second section</h1>
+    </section>
     <script>
     let options = {
             strings: ['Web Developer', 'Graphic Designer ','Freelancer'],
             typeSpeed: 150,
+            backSpeed: 60,
             loop:true
             };
          let typed = new Typed(".auto-text",options);
      </script>
+     <script src="app.js"></script>
 
 </body>
 
