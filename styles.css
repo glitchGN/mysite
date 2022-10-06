@@ -68,6 +68,9 @@ a{
     right: 0;
     z-index: 100;
 }
+.container p{
+   
+}
 .left{
     display: flex;
     justify-content: center;
